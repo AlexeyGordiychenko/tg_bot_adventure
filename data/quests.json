@@ -1,0 +1,38 @@
+[
+    {
+        "npc_id": 8,
+        "task": "I need Goblin Goggles to disguise myself as a goblin and infiltrate their camp. Can you get me three of them from the goblin warriors? I'll give you a Goblin Map in return.",
+        "required_level": 45,
+        "required_item_id": 12,
+        "required_count": 3,
+        "reward_item_id": 13,
+        "reward_count": 1
+    },
+    {
+        "npc_id": 10,
+        "task": "I need five Cat's Eyes to make a magic pendant that can see through illusions. Can you find it for me in the dark forest? It's a rare gem that glows in the dark. I'll give you a Magic Feather in return.",
+        "required_level": 1,
+        "required_item_id": 6,
+        "required_count": 5,
+        "reward_item_id": 14,
+        "reward_count": 1
+    },
+    {
+        "npc_id": 3,
+        "task": "I need a Dragon Scale to make a potion that can enhance my magic. Can you defeat the Fire Drake that guards the treasure and bring me its scale? It's a tough beast, but I'll reward you with a Witch's Broom.",
+        "required_level": 15,
+        "required_item_id": 8,
+        "required_count": 1,
+        "reward_item_id": 15,
+        "reward_count": 1
+    },
+    {
+        "npc_id": 1,
+        "task": "I need Spider Silk to make bandages that can heal wounds faster. Can you collect four of it from the giant spiders in the forest? They are dangerous, but I'll give you five Potions of Health if you succeed.",
+        "required_level": 1,
+        "required_item_id": 4,
+        "required_count": 4,
+        "reward_item_id": 2,
+        "reward_count": 5
+    }
+]

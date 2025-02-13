@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "🐈 Witch's Cat",
+        "location_id": 2,
+        "level": 1,
+        "loot_id": 6
+    },
+    {
+        "id": 2,
+        "name": "🐺 Dark Wolf",
+        "location_id": 2,
+        "level": 3,
+        "loot_id": 3
+    },
+    {
+        "id": 3,
+        "name": "🕷️ Giant Spider",
+        "location_id": 2,
+        "level": 5,
+        "loot_id": 4
+    },
+    {
+        "id": 4,
+        "name": "👹 Forest Goblin",
+        "location_id": 2,
+        "level": 7,
+        "loot_id": 5
+    },
+    {
+        "id": 5,
+        "name": "💀 Skeleton Archer",
+        "location_id": 3,
+        "level": 10,
+        "loot_id": 9
+    },
+    {
+        "id": 6,
+        "name": "👻 Ghost Knight",
+        "location_id": 3,
+        "level": 15,
+        "loot_id": 7
+    },
+    {
+        "id": 7,
+        "name": "🐲 Fire Drake",
+        "location_id": 3,
+        "level": 20,
+        "loot_id": 8
+    },
+    {
+        "id": 8,
+        "name": "👹 Goblin Warrior",
+        "location_id": 5,
+        "level": 30,
+        "loot_id": 10
+    },
+    {
+        "id": 9,
+        "name": "👹 Goblin Shaman",
+        "location_id": 5,
+        "level": 40,
+        "loot_id": 11
+    },
+    {
+        "id": 10,
+        "name": "👹 Goblin Bomber",
+        "location_id": 5,
+        "level": 50,
+        "loot_id": 12
+    }
+]

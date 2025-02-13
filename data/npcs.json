@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "🩹 Ella, the village healer",
+        "location_id": 1
+    },
+    {
+        "id": 2,
+        "name": "🍻 Bart, the tavern owner",
+        "location_id": 1
+    },
+    {
+        "id": 3,
+        "name": "🧙‍♀️ Luna, the forest witch",
+        "location_id": 2
+    },
+    {
+        "id": 4,
+        "name": "🏹 Rex, the wolf hunter",
+        "location_id": 2
+    },
+    {
+        "id": 5,
+        "name": "👻 Arthur, the ghost prince",
+        "location_id": 3
+    },
+    {
+        "id": 6,
+        "name": "🪄 Zane, the crystal mage",
+        "location_id": 4
+    },
+    {
+        "id": 7,
+        "name": "👹 Grok, the goblin king",
+        "location_id": 5
+    },
+    {
+        "id": 8,
+        "name": "🕵️‍♀️ Mira, the goblin spy",
+        "location_id": 5
+    },
+    {
+        "id": 9,
+        "name": "🌟 Merlin, the wizard",
+        "location_id": 6
+    },
+    {
+        "id": 10,
+        "name": "📚 Morgan, the wizard's apprentice",
+        "location_id": 6
+    }
+]

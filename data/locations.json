@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "🏘️ The Village of Farnham",
+        "description": "A peaceful village surrounded by green fields and a clear river. The villagers are friendly and hardworking, and they welcome travelers with open arms. The village has a small market, a tavern, a blacksmith, and a church.",
+        "directions": [
+            2,
+            3,
+            5
+        ]
+    },
+    {
+        "id": 2,
+        "name": "🌲 The Dark Forest",
+        "description": "A dense and gloomy forest that covers a large area of the land. The forest is home to many dangerous creatures, such as wolves, spiders, goblins, and witches. The forest is also full of traps and secrets, and only the brave or the foolish dare to enter it.",
+        "directions": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": 3,
+        "name": "🏰 The Ruined Castle",
+        "description": "A once-majestic castle that was destroyed by a dragon long ago. The castle is now a ruin, with crumbling walls, broken towers, and charred remains. The castle is haunted by the ghosts of the former inhabitants, who seek revenge on the living. The castle also holds a hidden treasure, guarded by the dragon.",
+        "directions": [
+            1,
+            2,
+            6
+        ]
+    },
+    {
+        "id": 4,
+        "name": "💎 The Crystal Cave",
+        "description": "A mysterious cave that sparkles with crystals of various colors and shapes. The cave is a source of magic and wonder, and it attracts many adventurers and scholars. The cave also hides a powerful artifact, a crystal ball that can show the future.",
+        "directions": [
+            2
+        ]
+    },
+    {
+        "id": 5,
+        "name": "⛺ The Goblin Camp",
+        "description": "A crude and chaotic camp where the goblins live and plot. The camp is full of tents, fires, weapons, and loot. The goblins are hostile and greedy, and they attack anyone who comes near their camp. The camp also has a leader, a goblin king who commands his minions with an iron fist.",
+        "directions": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 6,
+        "name": "🧙‍♂️ The Wizard's Tower",
+        "description": "A tall and slender tower where the wizard studies and experiments. The tower is full of books, scrolls, potions, and artifacts. The wizard is wise and benevolent, and he helps those who seek his aid. The tower also has a challenge, a series of puzzles and riddles that test the mind and the spirit.",
+        "directions": [
+            3
+        ]
+    }
+]

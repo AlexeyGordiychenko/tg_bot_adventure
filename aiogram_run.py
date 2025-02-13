@@ -3,7 +3,7 @@ from aiogram.types import BotCommand, BotCommandScopeDefault
 from aiohttp import web
 from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_application
 from create_bot import bot, dp, BASE_URL, WEBHOOK_PATH, HOST, PORT, ADMIN_ID
-from handlers.start import router
+from handlers import router
 
 
 # Функция для установки командного меню для бота

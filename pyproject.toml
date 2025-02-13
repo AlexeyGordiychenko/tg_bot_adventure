@@ -1,5 +1,5 @@
 [project]
-name = "webhooks-test"
+name = "scp-tg-bot-adventure-webhooks"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,4 +7,5 @@ requires-python = ">=3.11"
 dependencies = [
     "aiogram>=3.17.0",
     "python-decouple>=3.8",
+    "sqlalchemy>=2.0.38",
 ]

@@ -1,0 +1,564 @@
+[
+    {
+        "npc_id": 1,
+        "stage_id": 1,
+        "npc_text": "Hello, traveler. I'm Ella, the village healer. I can heal wounds, cure diseases, and make potions.",
+        "responses": [
+            {
+                "text": "How did you learn to heal?",
+                "next_stage_id": 2
+            },
+            {
+                "text": "What kind of potions can you make?",
+                "next_stage_id": 3
+            }
+        ]
+    },
+    {
+        "npc_id": 1,
+        "stage_id": 2,
+        "npc_text": "I learned from my mother, who was also a healer. She taught me everything she knew. She passed away a few years ago, but I still follow her example.",
+        "responses": [
+            {
+                "text": "She sounds like a great person. I'm sorry for your loss."
+            }
+        ]
+    },
+    {
+        "npc_id": 1,
+        "stage_id": 3,
+        "npc_text": "I can make potions for healing, enhancing, or inducing effects. I use natural ingredients that I gather from the forest or buy from the market. I have a recipe book, but I also experiment with new formulas.",
+        "responses": [
+            {
+                "text": "That sounds very interesting."
+            }
+        ]
+    },
+    {
+        "npc_id": 2,
+        "stage_id": 1,
+        "npc_text": "Welcome to the Farnham Tavern, traveler. I'm Bart, the owner of this fine establishment. I serve the best drinks and food in the village, and I have rooms for rent if you need a place to stay.",
+        "responses": [
+            {
+                "text": "How long have you been running this tavern?",
+                "next_stage_id": 2
+            },
+            {
+                "text": "What's on the menu today?",
+                "next_stage_id": 3
+            }
+        ]
+    },
+    {
+        "npc_id": 2,
+        "stage_id": 2,
+        "npc_text": "I've been running this tavern for over a decade now. I inherited it from my father, who inherited it from his father, and so on. It's a family business, and I'm proud of it.",
+        "responses": [
+            {
+                "text": "That's impressive."
+            }
+        ]
+    },
+    {
+        "npc_id": 2,
+        "stage_id": 3,
+        "npc_text": "We have a variety of dishes and drinks to suit your taste and budget. We have fresh bread, cheese, and fruit for a light snack, or roasted chicken, stew, and pie for a hearty meal. We have ale, wine, and cider for a refreshing drink, or tea, coffee, and milk for a warm one. And we have some special treats, like honey cakes, chocolate, and ice cream for dessert.",
+        "responses": [
+            {
+                "text": "Sounds delicious. But I'm not hungry."
+            }
+        ]
+    },
+    {
+        "npc_id": 3,
+        "stage_id": 1,
+        "npc_text": "Who dares to enter my domain? I am Luna, the forest witch. I have power over the plants, the animals, and the elements. I can help you or harm you, depending on my mood.",
+        "responses": [
+            {
+                "text": "I mean you no harm. I'm just passing through.",
+                "next_stage_id": 2
+            },
+            {
+                "text": "I seek your wisdom. How did you become a witch?",
+                "next_stage_id": 3
+            }
+        ]
+    },
+    {
+        "npc_id": 3,
+        "stage_id": 2,
+        "npc_text": "Passing through? Do you not know the dangers of this forest? There are many creatures that would love to feast on your flesh, or worse. You should turn back, while you still can.",
+        "responses": [
+            {
+                "text": "I'm not afraid. I can handle myself."
+            }
+        ]
+    },
+    {
+        "npc_id": 3,
+        "stage_id": 3,
+        "npc_text": "How did I become a witch? That is a long and sad story. I was once a human girl, living in a village near the forest. I had a family, friends, and a lover. But one day, a witch hunter came to the village and accused me of practicing dark magic. He captured me and tried to burn me at the stake. But I escaped, with the help of the forest. The forest saved me, but it also changed me. I became a witch, a part of the forest. I lost my humanity, but I gained new powers.",
+        "responses": [
+            {
+                "text": "That's terrible. I'm sorry for what happened to you."
+            }
+        ]
+    },
+    {
+        "npc_id": 4,
+        "stage_id": 1,
+        "npc_text": "Hey, you there. Are you lost? This is no place for a wanderer. This is the dark forest, where wolves and other beasts roam. I'm Rex, the wolf hunter. I hunt them for their pelts and their teeth.",
+        "responses": [
+            {
+                "text": "Why do you hunt wolves? Aren't they endangered?",
+                "next_stage_id": 2
+            },
+            {
+                "text": "How do you hunt wolves?",
+                "next_stage_id": 3
+            }
+        ]
+    },
+    {
+        "npc_id": 4,
+        "stage_id": 2,
+        "npc_text": "Endangered? Ha! Not these wolves. These are not the normal wolves you see in the wild. These are the dark wolves, the ones that have been corrupted by the forest's magic. They are bigger, stronger, and more vicious than the regular ones. They attack humans and animals alike, without mercy. They need to be culled, before they overrun the forest.",
+        "responses": [
+            {
+                "text": "That sounds scary. How do you deal with them?",
+                "next_stage_id": 3
+            }
+        ]
+    },
+    {
+        "npc_id": 4,
+        "stage_id": 3,
+        "npc_text": "With skill, courage, and a good bow. I've been hunting wolves since I was a boy. My father taught me everything he knew. He was the best wolf hunter in the land, until he was killed by a pack of dark wolves. I swore to avenge him, and to carry on his legacy.",
+        "responses": [
+            {
+                "text": "I'm sorry for your loss. He must have been a great man.",
+                "next_stage_id": 4
+            }
+        ]
+    },
+    {
+        "npc_id": 4,
+        "stage_id": 4,
+        "npc_text": "He was. He was my hero. And he was right about the wolves. They are not just animals. They are evil. They are the servants of the forest witch, Luna. She controls them with her magic. She is the one who made them dark. She is the enemy of all hunters, and all humans.",
+        "responses": [
+            {
+                "text": "Luna, the forest witch? I've seen her. She didn't seem evil to me.",
+                "next_stage_id": 5
+            }
+        ]
+    },
+    {
+        "npc_id": 4,
+        "stage_id": 5,
+        "npc_text": "Didn't seem evil? She is dangerous. She will trick you with her words and her spells. She will make you think she is your friend, but she is not. She is your enemy. She is my enemy. And I will kill her, one day. I will kill her, and all her wolves.",
+        "responses": [
+            {
+                "text": "I don't think you should do that. Well it's not my business. Bye."
+            }
+        ]
+    },
+    {
+        "npc_id": 5,
+        "stage_id": 1,
+        "npc_text": "Who are you? What are you doing here? This is my castle, or what's left of it. I am Arthur, the ghost prince. I haunt this place, along with the other spirits of the past.",
+        "responses": [
+            {
+                "text": "I'm sorry to disturb you. I'm just exploring the ruins.",
+                "next_stage_id": 2
+            }
+        ]
+    },
+    {
+        "npc_id": 5,
+        "stage_id": 2,
+        "npc_text": "Exploring the ruins? Why would you do that? There is nothing here but dust and ashes. And ghosts, of course. Do you not fear the ghosts?",
+        "responses": [
+            {
+                "text": "No, I don't fear the ghosts. I'm curious about them.",
+                "next_stage_id": 3
+            },
+            {
+                "text": "Yes, I do fear the ghosts. I'm here to find a way to free them.",
+                "next_stage_id": 4
+            }
+        ]
+    },
+    {
+        "npc_id": 5,
+        "stage_id": 3,
+        "npc_text": "Curious about the ghosts? What do you want to know? We are the souls of the people who lived and died in this castle. We are bound to this place, unable to move on. We are tormented by the memories of our lives, and the horrors of our deaths.",
+        "responses": [
+            {
+                "text": "That's awful. How did you die?",
+                "next_stage_id": 5
+            },
+            {
+                "text": "That's sad. What were your lives like?",
+                "next_stage_id": 6
+            }
+        ]
+    },
+    {
+        "npc_id": 5,
+        "stage_id": 4,
+        "npc_text": "Free the ghosts? How do you intend to do that? We are trapped here by a curse, a curse that was cast by the dragon. The dragon that came and burned our castle, and killed us all. The dragon that took our treasure, and our crown.",
+        "responses": [
+            {
+                "text": "I don't have a plan, but I'm working on it."
+            }
+        ]
+    },
+    {
+        "npc_id": 5,
+        "stage_id": 5,
+        "npc_text": "How did I die? I died in the fire, the fire that the dragon started. I was the prince, the heir to the throne. I was supposed to be crowned on that day, the day of my birthday. But the dragon came, and ruined everything. He flew over the castle, and breathed his fire. He burned the walls, the towers, the people. He burned me, and my family. He burned everything.",
+        "responses": [
+            {
+                "text": "I'm so sorry. That's horrible."
+            }
+        ]
+    },
+    {
+        "npc_id": 5,
+        "stage_id": 6,
+        "npc_text": "What were my lives like? They were happy, once. I was the prince, the son of the king and the queen. I had a brother, and a sister. We loved each other, and we loved our people. We had a beautiful castle, and a prosperous kingdom. We had peace, and joy. We had everything, until the dragon came.",
+        "responses": [
+            {
+                "text": "I'm so sorry. That's tragic."
+            }
+        ]
+    },
+    {
+        "npc_id": 6,
+        "stage_id": 1,
+        "npc_text": "Greetings, traveler. I am Zane, the crystal mage. I study the secrets of the crystals that fill this cave. They are a source of great magic and wonder.",
+        "responses": [
+            {
+                "text": "What kind of magic can you do with the crystals?",
+                "next_stage_id": 2
+            },
+            {
+                "text": "What kind of wonder can you find in the crystals?",
+                "next_stage_id": 3
+            }
+        ]
+    },
+    {
+        "npc_id": 6,
+        "stage_id": 2,
+        "npc_text": "The crystals have many properties and effects. They can amplify, store, or manipulate energy. They can create light, sound, or heat. They can enhance, protect, or heal. They can also be used to make powerful artifacts, such as the crystal ball that can show the future.",
+        "responses": [
+            {
+                "text": "That sounds very interesting. Can you show me some examples?",
+                "next_stage_id": 4
+            }
+        ]
+    },
+    {
+        "npc_id": 6,
+        "stage_id": 3,
+        "npc_text": "The crystals have many mysteries and secrets. They are alive, in a way. They have a consciousness, a will, and a personality. They can communicate, if you know how to listen. They can also reveal things, if you know how to look. They can show you visions, memories, or dreams.",
+        "responses": [
+            {
+                "text": "That sounds very intriguing. Can you show me some examples?",
+                "next_stage_id": 5
+            }
+        ]
+    },
+    {
+        "npc_id": 6,
+        "stage_id": 4,
+        "npc_text": "Sure, I can show you some examples of the magic of the crystals. Here, take this crystal wand. It is made of a clear quartz crystal, which can channel and direct energy. You can use it to cast spells, such as creating a fireball, a light beam, or a force field. Just point the wand and say the words. For example, to create a fireball, say 'Ignis'. To create a light beam, say 'Lux'. To create a force field, say 'Protego'. Try it yourself.",
+        "responses": [
+            {
+                "text": "Wow, this is amazing. I'll try it. Ignis!",
+                "next_stage_id": 6
+            }
+        ]
+    },
+    {
+        "npc_id": 6,
+        "stage_id": 5,
+        "npc_text": "Sure, I can show you some examples of the wonder of the crystals. Here, take this crystal pendant. It is made of a purple amethyst crystal, which can connect and resonate with your mind. You can use it to access the hidden realms of the crystals, such as seeing visions, memories, or dreams. Just wear the pendant and close your eyes. For example, to see a vision of the future, think 'Futurum'. To see a memory of the past, think 'Memoria'. To see a dream of the present, think 'Somnium'. Try it yourself.",
+        "responses": [
+            {
+                "text": "Wow, this is amazing. I'll try it. Futurum!",
+                "next_stage_id": 6
+            }
+        ]
+    },
+    {
+        "npc_id": 6,
+        "stage_id": 6,
+        "npc_text": "Hm, nothing happened...maybe it's broken.",
+        "responses": [
+            {
+                "text": "That's a pity, goodbye then."
+            }
+        ]
+    },
+    {
+        "npc_id": 7,
+        "stage_id": 1,
+        "npc_text": "Who are you? What are you doing in my camp? This is the camp of the goblins, the strongest and smartest creatures in the forest. I am Grok, the goblin king. I rule over all the goblins, and I make the best plans.",
+        "responses": [
+            {
+                "text": "I'm just a traveler. I'm curious about your camp.",
+                "next_stage_id": 2
+            },
+            {
+                "text": "I'm here to challenge you. I want to be the new goblin king.",
+                "next_stage_id": 3
+            },
+            {
+                "text": "I'm here to spy on you. I want to know your secrets.",
+                "next_stage_id": 4
+            }
+        ]
+    },
+    {
+        "npc_id": 7,
+        "stage_id": 2,
+        "npc_text": "Curious about my camp? Why? There is nothing here for you to see. Just tents, fires, weapons, and loot. And goblins, of course. Lots of goblins. We are the best at raiding and robbing. We have more loot than anyone else.",
+        "responses": [
+            {
+                "text": "Just an ordinary camp, huh? Ok, noted."
+            }
+        ]
+    },
+    {
+        "npc_id": 7,
+        "stage_id": 3,
+        "npc_text": "Challenge me? Ha! You are brave, but foolish. You are no match for me. I am the strongest and smartest goblin in the forest. I have the biggest sword, the sharpest teeth, and the loudest voice. No one can defeat me. No one can take my crown.",
+        "responses": [
+            {
+                "text": "Ok, I changed my mind."
+            }
+        ]
+    },
+    {
+        "npc_id": 7,
+        "stage_id": 4,
+        "npc_text": "Spy on me? How dare you? You are a traitor, and a liar. You are not welcome in my camp. You are an enemy of the goblins. You will pay for your insolence. You will be captured, tortured, and eaten.",
+        "responses": [
+            {
+                "text": "Ok, calm down, I'm leaving."
+            }
+        ]
+    },
+    {
+        "npc_id": 8,
+        "stage_id": 1,
+        "npc_text": "Psst, hey, you. Come here. I have something to tell you. Something important. Something secret. I am Mira, the goblin spy. I work for the goblin king, but I don't like him. He is cruel, and stupid, and greedy. He doesn't care about the goblins, or the forest. He only cares about himself.",
+        "responses": [
+            {
+                "text": "Why are you telling me this? What do you want from me?",
+                "next_stage_id": 2
+            },
+            {
+                "text": "How do you spy for the goblin king? What do you do?",
+                "next_stage_id": 3
+            },
+            {
+                "text": "How do you feel about the goblin king? What do you think of him?",
+                "next_stage_id": 4
+            }
+        ]
+    },
+    {
+        "npc_id": 8,
+        "stage_id": 2,
+        "npc_text": "I'm telling you this because I need your help. I want to stop the goblin king. I want to free the goblins, and the forest, from his tyranny. I want to start a rebellion. But I can't do it alone. I need allies. I need you.",
+        "responses": [
+            {
+                "text": "How can I help you? What do you need me to do?",
+                "next_stage_id": 5
+            }
+        ]
+    },
+    {
+        "npc_id": 8,
+        "stage_id": 3,
+        "npc_text": "I spy for the goblin king by pretending to be loyal to him. I do what he tells me to do, but I also do what he doesn't know I do. I sneak out of the camp, and I gather information. I talk to other creatures, and I learn their secrets. I find out their weaknesses, and their strengths. I report back to the goblin king, but I also keep some things for myself.",
+        "responses": [
+            {
+                "text": "That's smart of you."
+            }
+        ]
+    },
+    {
+        "npc_id": 8,
+        "stage_id": 4,
+        "npc_text": "I hate the goblin king. He is the worst thing that ever happened to the goblins, and the forest. He is a bully, and a coward, and a liar. He makes the goblins fight, and steal, and kill. He makes the forest suffer, and burn, and die. He is not a true king. He is a tyrant.",
+        "responses": [
+            {
+                "text": "I agree with you. He is a tyrant."
+            }
+        ]
+    },
+    {
+        "npc_id": 8,
+        "stage_id": 5,
+        "npc_text": "Meet me later, I'll tell you more",
+        "responses": [
+            {
+                "text": "Ok, I'll meet you later."
+            }
+        ]
+    },
+    {
+        "npc_id": 9,
+        "stage_id": 1,
+        "npc_text": "Welcome, traveler, to the Wizard's Tower. I am Merlin, the wizard. I study and practice the art of magic, in all its forms and aspects. I am also the guardian of this tower, and its secrets.",
+        "responses": [
+            {
+                "text": "What kind of magic do you study and practice?",
+                "next_stage_id": 2
+            },
+            {
+                "text": "What kind of secrets does this tower hold?",
+                "next_stage_id": 3
+            },
+            {
+                "text": "What kind of guardian are you? Do you protect or attack?",
+                "next_stage_id": 4
+            }
+        ]
+    },
+    {
+        "npc_id": 9,
+        "stage_id": 2,
+        "npc_text": "I study and practice all kinds of magic, from the simplest to the most complex, from the natural to the supernatural, from the ancient to the modern. I have learned from many sources, such as books, scrolls, artifacts, and other wizards. I have also discovered some things on my own, through experimentation and intuition. I have mastered many spells, such as levitation, teleportation, transmutation, and illusion. I have also created some artifacts, such as my staff, my ring, and my crystal ball.",
+        "responses": [
+            {
+                "text": "That's impressive. Can you show me some of your spells or artifacts?",
+                "next_stage_id": 5
+            }
+        ]
+    },
+    {
+        "npc_id": 9,
+        "stage_id": 3,
+        "npc_text": "This tower holds many secrets, some of which I know, and some of which I don't. The tower itself is a secret, as it is hidden from the eyes of the unworthy. The tower is also a puzzle, as it has many rooms, corridors, and traps that test the mind and the spirit. The tower also holds a treasure, a powerful and mysterious artifact that lies at the top of the tower, in the chamber of the stars.",
+        "responses": [
+            {
+                "text": "That's intriguing. Can you tell me more about the artifact?",
+                "next_stage_id": 6
+            }
+        ]
+    },
+    {
+        "npc_id": 9,
+        "stage_id": 4,
+        "npc_text": "I am a guardian of both protection and attack. I protect the tower, and its secrets, from those who would misuse or abuse them. I also protect the world, and its balance, from those who would threaten or disturb it. I attack those who are evil, or ignorant, or greedy, and who try to enter the tower, or harm the world. I use my magic, and my wisdom, to judge and act accordingly.",
+        "responses": [
+            {
+                "text": "That's noble. How do you decide who is worthy or unworthy?",
+                "next_stage_id": 7
+            }
+        ]
+    },
+    {
+        "npc_id": 9,
+        "stage_id": 5,
+        "npc_text": "Sure, I can show you some of my spells or artifacts. Here, take a look at my staff. It is made of a rare and magical wood, carved with runes and symbols. It helps me to channel and focus my magic, and to cast more powerful spells. For example, I can use it to create a blast of lightning, a gust of wind, or a wall of ice. Just hold the staff and say the words. For example, to create a blast of lightning, say 'Fulmen'. To create a gust of wind, say 'Ventus'. To create a wall of ice, say 'Glacies'.",
+        "responses": [
+            {
+                "text": "Wow, this is amazing."
+            }
+        ]
+    },
+    {
+        "npc_id": 9,
+        "stage_id": 6,
+        "npc_text": "The artifact is a star stone, a rare and powerful gem that fell from the sky. It contains the essence of the stars, and it can grant incredible abilities to those who wield it. It can also be used to open a portal to the realm of the stars, where the secrets of the universe are revealed. But be warned, the star stone is also dangerous, as it can corrupt and consume those who are not ready for its power.",
+        "responses": [
+            {
+                "text": "That sounds amazing. Can I see the star stone?",
+                "next_stage_id": 8
+            }
+        ]
+    },
+    {
+        "npc_id": 9,
+        "stage_id": 7,
+        "npc_text": "I decide who is worthy or unworthy based on their intentions, their actions, and their character. Those who are good, or wise, or brave, are worthy. Those who are evil, or foolish, or cowardly, are unworthy. Those who are in between, are uncertain. I use my magic, and my intuition, to sense and judge these qualities. I also use the tower itself, as it has its own way of testing and challenging those who enter it.",
+        "responses": [
+            {
+                "text": "That sounds fair."
+            }
+        ]
+    },
+    {
+        "npc_id": 9,
+        "stage_id": 8,
+        "npc_text": "No, only the chosen ones are allowed to see it, I'm sorry.",
+        "responses": [
+            {
+                "text": "Maybe someday I can see it. Goodbye."
+            }
+        ]
+    },
+    {
+        "npc_id": 10,
+        "stage_id": 1,
+        "npc_text": "Hello, traveler. I am Morgan, the wizard's apprentice. I assist Merlin in his studies and experiments. I also learn from him, as he is the greatest wizard in the world.",
+        "responses": [
+            {
+                "text": "What do you assist and learn from Merlin?",
+                "next_stage_id": 2
+            },
+            {
+                "text": "How did you become Merlin's apprentice?",
+                "next_stage_id": 3
+            }
+        ]
+    },
+    {
+        "npc_id": 10,
+        "stage_id": 2,
+        "npc_text": "I assist and learn from Merlin in many ways. I help him to organize and maintain his library, where he keeps his books, scrolls, and artifacts. I help him to prepare and conduct his experiments, where he tests and creates new spells and artifacts. I help him to observe and analyze his results, where he discovers and records new knowledge and secrets. I also learn from him by watching and listening to him, as he teaches and explains to me the principles and techniques of magic.",
+        "responses": [
+            {
+                "text": "That sounds very helpful and educational. What are some of the things you have learned from him?",
+                "next_stage_id": 4
+            }
+        ]
+    },
+    {
+        "npc_id": 10,
+        "stage_id": 3,
+        "npc_text": "I became Merlin's apprentice by chance and fate. I was a young orphan, living on the streets of a nearby town. I had no family, no friends, no home. I had nothing, except a curiosity and a talent for magic. I used to sneak into the town's library, and read the books on magic. I also used to practice some simple spells, such as making sparks, or levitating objects. One day, Merlin came to the town, and saw me doing magic. He was impressed by my potential, and offered to take me as his apprentice. I accepted, and followed him to his tower.",
+        "responses": [
+            {
+                "text": "That sounds very lucky and adventurous. How do you like living in the tower?",
+                "next_stage_id": 5
+            }
+        ]
+    },
+    {
+        "npc_id": 10,
+        "stage_id": 4,
+        "npc_text": "Some of the things I have learned from Merlin are: how to cast different spells, such as fire, water, air, and earth; how to use different artifacts, such as wands, rings, and crystals; how to read and write different languages, such as Latin, Greek, and runes; how to understand and apply different theories, such as alchemy, astrology, and numerology; and how to appreciate and enjoy different aspects of magic, such as beauty, mystery, and humor.",
+        "responses": [
+            {
+                "text": "I wish I would learn it someday too!"
+            }
+        ]
+    },
+    {
+        "npc_id": 10,
+        "stage_id": 5,
+        "npc_text": "I like living in the tower very much. It is a wonderful place, full of magic and wonder. There is always something new and exciting to see and do. The tower has many rooms, each with a different theme and purpose. There is a library, a laboratory, a observatory, a garden, a gallery, and more. The tower also changes and adapts to the needs and wishes of its inhabitants. It can create new rooms, or rearrange existing ones. It can also provide anything that is needed, such as food, clothes, or books.",
+        "responses": [
+            {
+                "text": "It sure does look like a great place to live!"
+            }
+        ]
+    }
+]

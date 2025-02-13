@@ -1,0 +1,90 @@
+{
+    "Characters": {
+        "Elf": [
+            [
+                "Aerith",
+                "Elora",
+                "Firion"
+            ],
+            [
+                "Silverleaf",
+                "Moonshadow",
+                "Starfall"
+            ]
+        ],
+        "Ork": [
+            [
+                "Grommash",
+                "Zugzug",
+                "Rokhan"
+            ],
+            [
+                "Hellscream",
+                "Skullcrusher",
+                "Bloodfury"
+            ]
+        ],
+        "Human": [
+            [
+                "Arthur",
+                "Elena",
+                "Leo"
+            ],
+            [
+                "Pendragon",
+                "Smith",
+                "Valdez"
+            ]
+        ],
+        "Dark Elf": [
+            [
+                "Drizzt",
+                "Lilith",
+                "Malus"
+            ],
+            [
+                "Do'Urden",
+                "Ravenloft",
+                "Darkblade"
+            ]
+        ]
+    },
+    "Items": {
+        "Weapons": [
+            [
+                "Enchanted",
+                "Rusty",
+                "Legendary"
+            ],
+            [
+                "Sword",
+                "Axe",
+                "Bow"
+            ]
+        ],
+        "Potions": [
+            [
+                "Healing",
+                "Poison",
+                "Mana"
+            ],
+            [
+                "Flask",
+                "Vial",
+                "Bottle"
+            ]
+        ],
+        "Clothes": [
+            [
+                "Leather",
+                "Silk",
+                "Wool"
+            ],
+            [
+                "Jacket",
+                "Robe",
+                "Sweater"
+            ]
+        ]
+    }
+}
