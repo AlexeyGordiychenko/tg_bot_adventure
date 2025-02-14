@@ -46,6 +46,7 @@ if __name__ == "__main__":
     )
     logger = logging.getLogger(__name__)
     if not os.path.exists("game.db"):
+        logging.info("Database not found, creating...")
         load_all()
 
     main()
