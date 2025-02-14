@@ -57,5 +57,7 @@ if __name__ == "__main__":
     if not os.path.exists(GAME_DB_PATH):
         logging.info(f"Database not found, creating {GAME_DB_PATH} ...")
         load_all()
+    else:
+        logging.info(f"Database found: {GAME_DB_PATH}")
 
     main()
