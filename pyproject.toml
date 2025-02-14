@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "aiogram>=3.17.0",
+    "fastapi>=0.115.8",
     "python-decouple>=3.8",
     "sqlalchemy>=2.0.38",
+    "uvicorn>=0.34.0",
 ]
