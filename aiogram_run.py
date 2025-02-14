@@ -28,9 +28,11 @@ async def set_commands():
 async def lifespan(app: FastAPI):
     await set_commands()
     await bot.set_webhook(f"{BASE_URL}{WEBHOOK_PATH}")
-    await bot.send_message(chat_id=ADMIN_ID, text="Бот запущен!")
+    if ADMIN_ID:
+        await bot.send_message(chat_id=ADMIN_ID, text="Бот запущен!")
     yield
-    await bot.send_message(chat_id=ADMIN_ID, text="Бот остановлен!")
+    if ADMIN_ID:
+        await bot.send_message(chat_id=ADMIN_ID, text="Бот остановлен!")
     await bot.delete_webhook(drop_pending_updates=True)
     await bot.session.close()
 
