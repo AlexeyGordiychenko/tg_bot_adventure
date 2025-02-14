@@ -20,9 +20,10 @@ from sqlalchemy.orm import (
 )
 from random import randint
 
+from create_bot import GAME_DB_PATH
+
 Base = declarative_base()
-db_path = os.path.join(os.path.dirname(__file__), "game.db")
-engine = create_engine("sqlite:///" + db_path)
+engine = create_engine("sqlite:///" + GAME_DB_PATH)
 Session = sessionmaker(bind=engine)
 
 directions_association = Table(
