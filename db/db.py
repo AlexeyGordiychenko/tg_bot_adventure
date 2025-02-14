@@ -1,26 +1,25 @@
-import os
-from sqlalchemy import (
-    Boolean,
-    create_engine,
-    Column,
-    Integer,
-    String,
-    ForeignKey,
-    Table,
-    select,
-    and_,
-)
-from sqlalchemy.orm import (
-    declarative_base,
-    relationship,
-    sessionmaker,
-    foreign,
-    selectinload,
-    aliased,
-)
 from random import randint
 
-from create_bot import GAME_DB_PATH
+from config import GAME_DB_PATH
+from sqlalchemy import (
+    Boolean,
+    Column,
+    ForeignKey,
+    Integer,
+    String,
+    Table,
+    and_,
+    create_engine,
+    select,
+)
+from sqlalchemy.orm import (
+    aliased,
+    declarative_base,
+    foreign,
+    relationship,
+    selectinload,
+    sessionmaker,
+)
 
 Base = declarative_base()
 engine = create_engine("sqlite:///" + GAME_DB_PATH)

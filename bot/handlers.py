@@ -1,17 +1,18 @@
-import logging
-from aiogram import F, Bot, Router, types
-from aiogram.fsm.context import FSMContext
-from aiogram.fsm.state import State, StatesGroup
-from aiogram.filters.command import Command
-from aiogram.types import Message, CallbackQuery
-from aiogram.utils.keyboard import InlineKeyboardBuilder
-import db
-import kb
-import msg_text
 import html
+import logging
 from functools import wraps
 
-router = Router()
+import db.db as db
+from aiogram import Bot, F, types
+from aiogram.filters.command import Command
+from aiogram.fsm.context import FSMContext
+from aiogram.fsm.state import State, StatesGroup
+from aiogram.types import CallbackQuery, Message
+from aiogram.utils.keyboard import InlineKeyboardBuilder
+
+import bot.kb as kb
+import bot.msg_text as msg_text
+from bot import router
 
 
 def check_character(func):
