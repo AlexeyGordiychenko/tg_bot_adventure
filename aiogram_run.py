@@ -9,7 +9,7 @@ from aiogram.types import BotCommand, BotCommandScopeDefault
 
 
 async def set_commands():
-    commands = [BotCommand(command="start", description="Start the game")]
+    commands = [BotCommand(command="start", description="Start you adventure")]
     await bot.set_my_commands(commands, BotCommandScopeDefault())
 
 
