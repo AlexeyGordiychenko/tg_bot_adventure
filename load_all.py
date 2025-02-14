@@ -120,7 +120,7 @@ def load_quests(session):
     session.commit()
 
 
-if __name__ == "__main__":
+def load_all():
     tables_to_drop = [
         Location.__table__,
         NPC.__table__,
@@ -142,3 +142,7 @@ if __name__ == "__main__":
     load_dialogs(session)
     load_quests(session)
     load_locations(session)
+
+
+if __name__ == "__main__":
+    load_all()

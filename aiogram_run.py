@@ -1,11 +1,13 @@
 from contextlib import asynccontextmanager
 import logging
+import os
 from fastapi import FastAPI
 from aiogram import types
 import uvicorn
 from create_bot import bot, dp, BASE_URL, WEBHOOK_PATH, HOST, PORT, ADMIN_ID
 from handlers import router
 from aiogram.types import BotCommand, BotCommandScopeDefault
+from load_all import load_all
 
 
 async def set_commands():
@@ -43,4 +45,7 @@ if __name__ == "__main__":
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     )
     logger = logging.getLogger(__name__)
+    if not os.path.exists("game.db"):
+        load_all()
+
     main()

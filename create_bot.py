@@ -10,6 +10,7 @@ HOST = config("HOST")
 PORT = int(config("PORT"))
 WEBHOOK_PATH = f"/webhook"
 BASE_URL = config("BASE_URL")
+GAME_DB_PATH = config("GAME_DB_PATH")
 
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
