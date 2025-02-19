@@ -103,26 +103,25 @@ async def start_command(message: Message, state: FSMContext, bot: Bot):
     :param FSMContext state: The finite state machine context for the user.
     :param Bot bot: The bot instance.
     """
-    try:
-        data = await state.get_data()
-        msg_id = data.get("msg_id")
-        if msg_id:
-            if not await bot.delete_message(message.chat.id, msg_id):
-                return
-        existing_character = await db.get_character(message.from_user.id)
-        if existing_character:
-            await state.update_data(character=existing_character)
-            msg = await message.answer(
-                msg_text.msg_welcome.format(name=existing_character.name),
-                reply_markup=kb.main_menu,
-            )
-            await state.update_data(msg_id=msg.message_id)
-        else:
-            await message.answer(
-                msg_text.msg_welcome_new, reply_markup=kb.create_character_menu
-            )
-    except Exception as e:
-        logging.error(str(e))
+    data = await state.get_data()
+    msg_id = data.get("msg_id")
+    if msg_id:
+        try:
+            await bot.delete_message(message.chat.id, msg_id)
+        except Exception as e:
+            logging.error(str(e))
+    existing_character = await db.get_character(message.from_user.id)
+    if existing_character:
+        await state.update_data(character=existing_character)
+        msg = await message.answer(
+            msg_text.msg_welcome.format(name=existing_character.name),
+            reply_markup=kb.main_menu,
+        )
+        await state.update_data(msg_id=msg.message_id)
+    else:
+        await message.answer(
+            msg_text.msg_welcome_new, reply_markup=kb.create_character_menu
+        )
 
 
 @router.callback_query(F.data == "main_menu")
