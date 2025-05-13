@@ -12,10 +12,10 @@ async def lifespan(app: FastAPI):
     # urljoin doesn't work on the server for some reason, so I use manual concatenation here
     await bot.set_webhook(f"{BASE_URL.rstrip('/')}/{WEBHOOK_PATH.lstrip('/')}")
     if ADMIN_ID:
-        await bot.send_message(chat_id=ADMIN_ID, text="Бот запущен!")
+        await bot.send_message(chat_id=ADMIN_ID, text="Bot's started")
     yield
     if ADMIN_ID:
-        await bot.send_message(chat_id=ADMIN_ID, text="Бот остановлен!")
+        await bot.send_message(chat_id=ADMIN_ID, text="Bot's stopped")
     await bot.delete_webhook(drop_pending_updates=True)
     await bot.session.close()
 
