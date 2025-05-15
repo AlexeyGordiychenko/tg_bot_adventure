@@ -1,3 +1,5 @@
+import json
+import logging
 from contextlib import asynccontextmanager
 
 from aiogram import types
@@ -21,8 +23,16 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
+logger = logging.getLogger(__name__)
 
 
 @app.post(f"/{WEBHOOK_PATH.lstrip()}")
 async def bot_webhook(update: dict):
+    logger.info(json.dumps(update))
+    if "message" in update and "chat" in update["message"]:
+        if str(update["message"]["chat"]["id"]) != ADMIN_ID:
+            await bot.send_message(
+                chat_id=ADMIN_ID,
+                text=f"Interaction received from id={update['message']['chat']['id']}; user={update['message']['chat']['username']}",
+            )
     await dp.feed_update(bot, types.Update(**update))
