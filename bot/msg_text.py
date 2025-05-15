@@ -22,7 +22,7 @@ msg_welcome = "Welcome, {name}!"
     :meta hide-value:
 """
 
-msg_enter_name = "Enter your character name:"
+msg_enter_name = "Enter your character name (only english letters and numbers):"
 """A message that asks the user to enter their character name.
 
     :meta hide-value:

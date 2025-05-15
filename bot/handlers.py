@@ -1,5 +1,6 @@
 import html
 import logging
+import re
 from functools import wraps
 
 import db.db as db
@@ -159,6 +160,9 @@ async def create_character(message: Message, state: FSMContext):
     :param Message message: The message from the user.
     :param FSMContext state: The finite state machine context for the user.
     """
+    if not re.match(r"^[a-zA-Z0-9]+$", message.text):
+        await message.answer(msg_text.msg_enter_name)
+        return
     await state.set_state(None)
     new_character = await db.create_character(message.from_user.id, message.text)
     await state.update_data(character=new_character)
