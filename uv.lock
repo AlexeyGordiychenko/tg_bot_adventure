@@ -500,7 +500,7 @@ wheels = [
 ]
 
 [[package]]
-name = "scp-tg-bot-adventure-webhooks"
+name = "tg-bot-adventure"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
